@@ -1,0 +1,86 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--Violet);
+}
+
+.main-container {
+    background-image: url(../images/bg-desktop.svg);
+}
+
+.header-logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.image-body {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.body-title {
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-right: 220px;
+    text-shadow: 3px 4px 5px rgb(53, 15, 53);
+    letter-spacing: 1.2px;
+    word-spacing: 0.5px;
+    line-height: 55px;
+}
+
+.body-text {
+    position: absolute;
+    top: 390px;
+    left: 800px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: gainsboro;
+    margin-right: 180px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-shadow: 2px 3px 3px rgb(53, 15, 53) ;
+}
+
+.body-button {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    background-color: ghostwhite;
+    border: solid 0.5px rgb(31, 7, 31);
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--Violet);
+    box-shadow: 1px 1px 2px rgb(53, 15, 53);
+}
+
+.social-container {
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+}
+
+.facebook-logo, .twitter-logo, .instagram-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
